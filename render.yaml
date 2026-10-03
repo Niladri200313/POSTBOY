@@ -21,9 +21,9 @@ services:
       - key: BETTER_AUTH_SECRET
         generateValue: true
       - key: BETTER_AUTH_URL
-        sync: false
+        value: https://postboy-app.onrender.com
       - key: NEXT_PUBLIC_APP_URL
-        sync: false
+        value: https://postboy-app.onrender.com
       - key: GITHUB_CLIENT_ID
         sync: false
       - key: GITHUB_CLIENT_SECRET
